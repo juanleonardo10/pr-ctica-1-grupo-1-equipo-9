@@ -9,7 +9,8 @@ import gestorAplicacion.Gestion.Pedido;
 import gestorAplicacion.Gestion.Plato;
 import gestorAplicacion.Gestion.Restaurante;
 
-public class Trabajador implements Serializable {
+//NOTA: faltan cosas revisar
+public class Trabajador extends Persona implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	

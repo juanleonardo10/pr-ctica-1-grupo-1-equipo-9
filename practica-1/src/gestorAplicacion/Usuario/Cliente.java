@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import gestorAplicacion.Usuario.Cliente.Afiliacion;
 
-public class Cliente implements Serializable  { //Serializable:La clase implementa esta interfaz para permitir que los objetos de tipo Cliente sean serializados 
+public class Cliente extends Persona implements Serializable  { //Serializable:La clase implementa esta interfaz para permitir que los objetos de tipo Cliente sean serializados 
 	//(convertidos a un formato que puede ser almacenado o transmitido).
 
 	private static final long serialVersionUID = 1L; 
