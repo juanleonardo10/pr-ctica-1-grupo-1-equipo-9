@@ -1,6 +1,7 @@
 package gestorAplicacion.Usuario;
 
- //FALTAN COSAS REVISAR 
+ //NOTA DE MI PARA MI: Faltan cosas no olvidar 
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
