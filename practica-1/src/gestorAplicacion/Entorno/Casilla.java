@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Casilla implements Serializable {
+public class Casilla implements Serializable { //Acumula los objetos de tipo casilla para que sean serializados
     private static final long serialVersionUID = 1L;
     private static ArrayList<Casilla> casillas = new ArrayList<Casilla>();
     private static ArrayList<String> tipos = new ArrayList<>(Arrays.asList("MESA", "VENTANA", "PUERTA"));
@@ -34,7 +34,7 @@ public class Casilla implements Serializable {
     }
 
 
-    @Override
+    @Override //Este segmento agrupa la informacion que se ha ingresado a partir de poblacion y nombre para retornarla y que pueda ser analizada por el usuario
     public String toString() {
         final StringBuilder sb = new StringBuilder("Casilla{");
         sb.append("tipo='").append(tipo).append('\'');

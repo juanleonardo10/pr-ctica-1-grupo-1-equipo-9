@@ -9,7 +9,7 @@ import gestorAplicacion.Usuario.Trabajador;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Mesa extends Casilla implements Serializable {
+public class Mesa extends Casilla implements Serializable { //Acumula los objetos de tipo mesa para que sean serializados
     //Atributos
     private static final long serialVersionUID = 1L;
     private static ArrayList<Mesa> mesas = new ArrayList<Mesa>();
