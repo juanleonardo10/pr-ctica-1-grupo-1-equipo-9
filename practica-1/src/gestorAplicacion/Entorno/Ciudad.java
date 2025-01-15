@@ -3,7 +3,7 @@ package gestorAplicacion.Entorno;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Ciudad extends Zona implements Serializable {
+public class Ciudad extends Zona implements Serializable { //Acumula los objetos de tipo ciudad para que sean serializados
     //Atributos
     private static final long serialVersionUID = 1L;
     private static ArrayList<Ciudad> ciudades = new ArrayList<Ciudad>();
@@ -32,7 +32,7 @@ public class Ciudad extends Zona implements Serializable {
             this.poblacion += (int) zona.getPoblacion();
         }
     }
-    @Override
+    @Override //Este segmento agrupa la informacion que se ha ingresado a partir de poblacion y nombre para retornarla y que pueda ser analizada por el usuario
     public String toString() {
         final StringBuilder sb = new StringBuilder("{Información de la Ciudad: ");
         sb.append("poblacion = ").append(poblacion);

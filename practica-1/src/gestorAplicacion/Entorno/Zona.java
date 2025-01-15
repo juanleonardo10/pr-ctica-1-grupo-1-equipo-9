@@ -51,8 +51,8 @@ public class Zona implements Serializable {
         return zonas;
     }
 
-    @Override
-    public String toString() {
+    @Override //Este segmento agrupa la informacion que se ha ingresado a partir de poblacion y nombre para retornarla y que pueda ser analizada por el usuario
+    public String toString() { 
         final StringBuilder sb = new StringBuilder("{Información de la Zona: ");
         sb.append("poblacion = ").append(poblacion);
         sb.append(", nombre = '").append(nombre).append('\'');
