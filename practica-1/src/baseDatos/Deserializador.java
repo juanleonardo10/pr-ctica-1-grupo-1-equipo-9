@@ -1,5 +1,7 @@
 package baseDatos;
 
+//Comprobar!! - DHC
+
 import gestorAplicacion.paquete1.*; 
 import gestorAplicacion.paquete2.*;
 import java.util.ArrayList;
