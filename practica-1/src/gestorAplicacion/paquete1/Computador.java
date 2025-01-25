@@ -1,4 +1,4 @@
-package gestorAplicacion.Entorno;
+package gestorAplicacion.paquete1;
 
 import java.util.ArrayList;
 import java.io.Serializable;
